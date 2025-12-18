@@ -1,0 +1,93 @@
+
+body {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(13, 13, 21) 30%,
+    rgb(135, 130, 238)
+  );
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 500svh;
+  max-height: 500svh;
+  max-width: 500svw;
+
+
+
+}
+header {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+input {
+  text-align: center;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: rgb(242, 241, 245);
+  margin: 15px;
+  justify-content: center;
+  height: 10px;
+  font-size: 17px;
+  width: 80%;
+}
+#s2 {
+  background-color: rgb(242, 241, 245);
+  border-radius: 10px;
+  padding: 10px;
+}
+#tags {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(242, 241, 245);
+  box-shadow: 0px 0px 5px gray;
+}
+#tags:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 5px gray;
+  background-color: rgba(160, 158, 211, 0.941);
+}
+button {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(209, 209, 246);
+}
+button:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 5px gray;
+  background-color: rgba(160, 158, 211, 0.941);
+}
+.post {
+  background-color: rgb(242, 241, 245);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  justify-self: center;
+}
+#eye {
+  margin-right: 5px;
+  color: rgb(14, 14, 92);
+}
+#heart {
+  margin-left: 5px;
+  color: red;
+}
+#thumbs-down {
+  margin-left: 5px;
+  color: rgb(14, 14, 92);
+}
+/* @media (max-width: 450px) {
+    .tags{
+        font-size: 10px;
+    }
+    body{
+        padding: 0% 5%;
+    }
+    
+} */
